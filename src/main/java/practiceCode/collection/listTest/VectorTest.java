@@ -1,4 +1,4 @@
-package practiceCode.collectionTest;
+package practiceCode.collection.listTest;
 
 import java.util.List;
 import java.util.Vector;
