@@ -1,6 +1,6 @@
-package practiceCode.enum_;
+package practiceCode.chapter05;
 
-public enum Week {
+public enum _12_Week {
 
 	SUNDAY, MONDAY, TUSEDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 }

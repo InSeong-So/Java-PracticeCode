@@ -1,4 +1,4 @@
-package practiceCode.enum_;
+package practiceCode.exercise;
 
 // 열거형 상수 연결 테스트
 enum Type {
@@ -22,7 +22,7 @@ enum Type {
 	}
 }
 
-public class Shoes {
+public class _C5_Shoes {
 	public static void main(String[] args) {
 		for (Type type : Type.values()) {
 			System.out.println(type.getBranch() + " : " + type.getName());
