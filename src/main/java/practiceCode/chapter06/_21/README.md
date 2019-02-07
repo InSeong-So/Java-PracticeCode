@@ -3,14 +3,12 @@
 어노테이션 자체는 아무런 동작을 가지지 않는 표식일 뿐이나 리플렉션(Reflection)을 이용해 어노테이션의 적용 여부와 엘리먼트 값을 읽고 처리할 수 있음
 
 ## 목적
-```컴파일러에게 코드 문법 에러를 체크하도록 정보를 제공```
-
-```소프트웨어 개발 툴이 빌드나 배치 시 코드를 자동으로 생성할 수 있도록 정보를 제공```
-
-```실행 시 (런타임 시) 특정 기능을 실행하도록 정보를 제공```
+- 컴파일러에게 코드 문법 에러를 체크하도록 정보를 제공
+- 소프트웨어 개발 툴이 빌드나 배치 시 코드를 자동으로 생성할 수 있도록 정보를 제공
+- 실행 시 (런타임 시) 특정 기능을 실행하도록 정보를 제공
 
 ## 선언 방법
-```
+```java
 public @interface AnnotationName{
 	// 엘리먼트 타입은 기본 데이터 타입과 String, 열거, Class, 배열 타입을 사용할 수 있음
 	타입 elementName1() [default 값];
@@ -19,7 +17,9 @@ public @interface AnnotationName{
 ```
 
 ## 적용 방법
-```@AnnotationName(elementName1="값", elementName2=3);```
+```java
+@AnnotationName(elementName1="값", elementName2=3);
+```
 
 ## 적용 대상
 ElementType 열거 상수 | 적용 대상
@@ -38,7 +38,7 @@ RetentionPolicy 열거 상수 | 설명
 SOURCE | 소스에서만 어노테이션 정보를 유지하며 바이트 코드 파일에는 정보가 남지 않음
 CLASS | 바이트 코드 파일까지 어노테이션 정보를 유지하며 리플렉션을 이용해 어노테이션 정보를 얻을 수 없음
 RUNTIME | 바이트 코드 파일까지 어노테이션 정보를 유지하면서 리플렉션을 이용한 런타임 시에 어노테이션 정보를 얻을 수 있음
-```
+```java
 @Target({ElementType.TYPE, ElementType.FIELD, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AnnotationName {
