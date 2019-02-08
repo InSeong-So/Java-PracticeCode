@@ -1,6 +1,6 @@
 package practiceCode.class1;
 
-import practiceCode.class2.Car;
+import practiceCode.chapter07._07.Car;
 
 public class getClass {
 	public static void main(String[] args) {

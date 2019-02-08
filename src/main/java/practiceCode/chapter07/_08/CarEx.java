@@ -1,6 +1,6 @@
-package practiceCode.class3;
+package practiceCode.chapter07._08;
 
-public class CarTest {
+public class CarEx {
 
 	public static void main(String[] args) {
 

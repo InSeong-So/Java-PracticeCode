@@ -1,4 +1,4 @@
-package practiceCode.class3;
+package practiceCode.chapter07._07;
 
 public class KumhoTire extends Tire {
 

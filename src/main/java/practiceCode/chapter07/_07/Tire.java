@@ -1,4 +1,4 @@
-package practiceCode.class2;
+package practiceCode.chapter07._07;
 
 public class Tire {
 
