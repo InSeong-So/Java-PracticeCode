@@ -41,3 +41,13 @@
     ```java
     import static org.junit.jupiter.api.Assertions.*;
     ```
+    - assertEquals(expected, actual) : 실제 값이 기대한 값과 같은지 확인
+    - assertNotNull(actual) : 값이 null 이 아닌지 확인
+    - assertTrue(boolean) : 다음 조건이 참(true)인지 확인
+    - assertAll(executables ...) : 모든 구문 확인
+    - assertThrows(expectedType, executable) : 예외 발생 확인
+    - assertTimeout(duration, executable) : 특정 시간 안에 실행이 완료되는지 확인
+    
+- 마지막 매개변수로 Supplier<String> 타입의 인스턴스를 람다 형태로 제공할 수 있다.
+  - 복잡한 메시지를 생성해야 하는 경우 실패 시에만 해당 메시지를 만들게 할 수 있다.
+  - AssertJ, Hemcrest, Truth 등의 라이브러리를 사용할 수도 있다.

@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="prejavatest" />
+        <module name="Java-PracticeCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="prejavatest" target="1.8" />
+      <module name="Java-PracticeCode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="prejavatest" options="-parameters" />
+      <module name="Java-PracticeCode" options="-parameters" />
     </option>
   </component>
 </project>

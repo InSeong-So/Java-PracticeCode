@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/java,macos,intellij
-# Edit at https://www.gitignore.io/?templates=java,macos,intellij
+# Created by https://www.gitignore.io/api/java,macos,maven,intellij
+# Edit at https://www.gitignore.io/?templates=java,macos,maven,intellij
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -143,4 +143,17 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/java,macos,intellij
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# End of https://www.gitignore.io/api/java,macos,maven,intellij
